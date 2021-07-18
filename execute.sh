@@ -3,7 +3,7 @@
 function unit_test() {
 
     echo "Performing Unit testing"
-    .build/bin/calculator_tests
+    ./build/bin/calculator_tests
 }
 
 function code_coverage() {
