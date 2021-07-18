@@ -25,4 +25,5 @@ RUN rm -Rf build && \
     cmake .. && \
     make -j8
 
-ENTRYPOINT ["./execute.sh"]
+RUN bash ./execute.sh
+#ENTRYPOINT ["./execute.sh"]
